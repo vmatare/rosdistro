@@ -40,5 +40,3 @@ pcl:
   gentoo: sci-libs/pcl
 yaml:
   gentoo: dev-libs/libyaml
-swig-wx:
-  gentoo: dev-lang/swig
