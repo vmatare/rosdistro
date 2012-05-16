@@ -1,7 +1,7 @@
 assimp: 
   gentoo: 
     portage: 
-      packages: media-libs/assimp::lorelei-overlay
+      packages: media-libs/assimp
 gtest: 
   gentoo: 
     portage: 
