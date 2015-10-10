@@ -46,3 +46,5 @@ xmlrpcpp:
   gentoo: dev-ros/xmlrpcpp
 std_msgs:
   gentoo: dev-ros/std_msgs
+rostime:
+  gentoo: dev-ros/rostime
