@@ -42,4 +42,6 @@ libconsole-bridge-dev:
   gentoo: dev-libs/console_bridge
 python-catkin-pkg:
   gentoo: dev-python/catkin_pkg
+xmlrpcpp:
+  gentoo: dev-ros/xmlrpcpp
 
