@@ -38,3 +38,5 @@ libqt4-opengl-dev:
   gentoo: x11-libs/qt-opengl
 yaml:
   gentoo: dev-libs/libyaml
+libconsole-bridge-dev:
+  gentoo: dev-libs/console_bridge
