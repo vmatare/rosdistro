@@ -44,4 +44,5 @@ python-catkin-pkg:
   gentoo: dev-python/catkin_pkg
 xmlrpcpp:
   gentoo: dev-ros/xmlrpcpp
-
+std_msgs:
+  gentoo: dev-ros/std_msgs
