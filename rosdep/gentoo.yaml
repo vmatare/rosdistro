@@ -42,9 +42,547 @@ libconsole-bridge-dev:
   gentoo: dev-libs/console_bridge
 python-catkin-pkg:
   gentoo: dev-python/catkin_pkg
-xmlrpcpp:
-  gentoo: dev-ros/xmlrpcpp
-std_msgs:
-  gentoo: dev-ros/std_msgs
+actionlib:
+  gentoo: dev-ros/actionlib
+actionlib_msgs:
+  gentoo: dev-ros/actionlib_msgs
+actionlib_tutorials:
+  gentoo: dev-ros/actionlib_tutorials
+amcl:
+  gentoo: dev-ros/amcl
+angles:
+  gentoo: dev-ros/angles
+audio_capture:
+  gentoo: dev-ros/audio_capture
+audio_common_msgs:
+  gentoo: dev-ros/audio_common_msgs
+audio_play:
+  gentoo: dev-ros/audio_play
+base_local_planner:
+  gentoo: dev-ros/base_local_planner
+bond:
+  gentoo: dev-ros/bond
+bondcpp:
+  gentoo: dev-ros/bondcpp
+bondpy:
+  gentoo: dev-ros/bondpy
+camera_calibration:
+  gentoo: dev-ros/camera_calibration
+camera_calibration_parsers:
+  gentoo: dev-ros/camera_calibration_parsers
+camera_info_manager:
+  gentoo: dev-ros/camera_info_manager
+carrot_planner:
+  gentoo: dev-ros/carrot_planner
+class_loader:
+  gentoo: dev-ros/class_loader
+clear_costmap_recovery:
+  gentoo: dev-ros/clear_costmap_recovery
+cmake_modules:
+  gentoo: dev-ros/cmake_modules
+collada_parser:
+  gentoo: dev-ros/collada_parser
+collada_urdf:
+  gentoo: dev-ros/collada_urdf
+compressed_depth_image_transport:
+  gentoo: dev-ros/compressed_depth_image_transport
+compressed_image_transport:
+  gentoo: dev-ros/compressed_image_transport
+control_msgs:
+  gentoo: dev-ros/control_msgs
+control_toolbox:
+  gentoo: dev-ros/control_toolbox
+controller_interface:
+  gentoo: dev-ros/controller_interface
+controller_manager:
+  gentoo: dev-ros/controller_manager
+controller_manager_msgs:
+  gentoo: dev-ros/controller_manager_msgs
+controller_manager_tests:
+  gentoo: dev-ros/controller_manager_tests
+convex_decomposition:
+  gentoo: dev-ros/convex_decomposition
+costmap_2d:
+  gentoo: dev-ros/costmap_2d
+cpp_common:
+  gentoo: dev-ros/cpp_common
+cv_bridge:
+  gentoo: dev-ros/cv_bridge
+depth_image_proc:
+  gentoo: dev-ros/depth_image_proc
+diagnostic_aggregator:
+  gentoo: dev-ros/diagnostic_aggregator
+diagnostic_analysis:
+  gentoo: dev-ros/diagnostic_analysis
+diagnostic_common_diagnostics:
+  gentoo: dev-ros/diagnostic_common_diagnostics
+diagnostic_msgs:
+  gentoo: dev-ros/diagnostic_msgs
+diagnostic_updater:
+  gentoo: dev-ros/diagnostic_updater
+driver_base:
+  gentoo: dev-ros/driver_base
+dwa_local_planner:
+  gentoo: dev-ros/dwa_local_planner
+dynamic_reconfigure:
+  gentoo: dev-ros/dynamic_reconfigure
+eigen_conversions:
+  gentoo: dev-ros/eigen_conversions
+eigen_stl_containers:
+  gentoo: dev-ros/eigen_stl_containers
+fake_localization:
+  gentoo: dev-ros/fake_localization
+filters:
+  gentoo: dev-ros/filters
+gazebo_msgs:
+  gentoo: dev-ros/gazebo_msgs
+gazebo_plugins:
+  gentoo: dev-ros/gazebo_plugins
+gazebo_ros:
+  gentoo: dev-ros/gazebo_ros
+gazebo_ros_control:
+  gentoo: dev-ros/gazebo_ros_control
+gencpp:
+  gentoo: dev-ros/gencpp
+geneus:
+  gentoo: dev-ros/geneus
+genlisp:
+  gentoo: dev-ros/genlisp
+genmsg:
+  gentoo: dev-ros/genmsg
+genpy:
+  gentoo: dev-ros/genpy
+geodesy:
+  gentoo: dev-ros/geodesy
+geographic_msgs:
+  gentoo: dev-ros/geographic_msgs
+geometric_shapes:
+  gentoo: dev-ros/geometric_shapes
+geometry_msgs:
+  gentoo: dev-ros/geometry_msgs
+global_planner:
+  gentoo: dev-ros/global_planner
+gmapping:
+  gentoo: dev-ros/gmapping
+hardware_interface:
+  gentoo: dev-ros/hardware_interface
+hector_compressed_map_transport:
+  gentoo: dev-ros/hector_compressed_map_transport
+hector_geotiff:
+  gentoo: dev-ros/hector_geotiff
+hector_geotiff_plugins:
+  gentoo: dev-ros/hector_geotiff_plugins
+hector_imu_attitude_to_tf:
+  gentoo: dev-ros/hector_imu_attitude_to_tf
+hector_imu_tools:
+  gentoo: dev-ros/hector_imu_tools
+hector_map_server:
+  gentoo: dev-ros/hector_map_server
+hector_map_tools:
+  gentoo: dev-ros/hector_map_tools
+hector_mapping:
+  gentoo: dev-ros/hector_mapping
+hector_marker_drawing:
+  gentoo: dev-ros/hector_marker_drawing
+hector_nav_msgs:
+  gentoo: dev-ros/hector_nav_msgs
+hector_pose_estimation:
+  gentoo: dev-ros/hector_pose_estimation
+hector_pose_estimation_core:
+  gentoo: dev-ros/hector_pose_estimation_core
+hector_slam_launch:
+  gentoo: dev-ros/hector_slam_launch
+hector_trajectory_server:
+  gentoo: dev-ros/hector_trajectory_server
+image_geometry:
+  gentoo: dev-ros/image_geometry
+image_proc:
+  gentoo: dev-ros/image_proc
+image_rotate:
+  gentoo: dev-ros/image_rotate
+image_transport:
+  gentoo: dev-ros/image_transport
+image_view:
+  gentoo: dev-ros/image_view
+interactive_marker_tutorials:
+  gentoo: dev-ros/interactive_marker_tutorials
+interactive_markers:
+  gentoo: dev-ros/interactive_markers
+ivcon:
+  gentoo: dev-ros/ivcon
+joint_limits_interface:
+  gentoo: dev-ros/joint_limits_interface
+joint_state_publisher:
+  gentoo: dev-ros/joint_state_publisher
+kdl_conversions:
+  gentoo: dev-ros/kdl_conversions
+kdl_parser:
+  gentoo: dev-ros/kdl_parser
+laser_assembler:
+  gentoo: dev-ros/laser_assembler
+laser_filters:
+  gentoo: dev-ros/laser_filters
+laser_geometry:
+  gentoo: dev-ros/laser_geometry
+librviz_tutorial:
+  gentoo: dev-ros/librviz_tutorial
+map_msgs:
+  gentoo: dev-ros/map_msgs
+map_server:
+  gentoo: dev-ros/map_server
+message_filters:
+  gentoo: dev-ros/message_filters
+message_generation:
+  gentoo: dev-ros/message_generation
+message_runtime:
+  gentoo: dev-ros/message_runtime
+message_to_tf:
+  gentoo: dev-ros/message_to_tf
+mk:
+  gentoo: dev-ros/mk
+move_base:
+  gentoo: dev-ros/move_base
+move_base_msgs:
+  gentoo: dev-ros/move_base_msgs
+move_slow_and_clear:
+  gentoo: dev-ros/move_slow_and_clear
+moveit_msgs:
+  gentoo: dev-ros/moveit_msgs
+nav_core:
+  gentoo: dev-ros/nav_core
+nav_msgs:
+  gentoo: dev-ros/nav_msgs
+navfn:
+  gentoo: dev-ros/navfn
+nodelet:
+  gentoo: dev-ros/nodelet
+nodelet_topic_tools:
+  gentoo: dev-ros/nodelet_topic_tools
+nodelet_tutorial_math:
+  gentoo: dev-ros/nodelet_tutorial_math
+object_recognition_msgs:
+  gentoo: dev-ros/object_recognition_msgs
+octomap_msgs:
+  gentoo: dev-ros/octomap_msgs
+opencv_apps:
+  gentoo: dev-ros/opencv_apps
+opencv_tests:
+  gentoo: dev-ros/opencv_tests
+openslam_gmapping:
+  gentoo: dev-ros/openslam_gmapping
+pcl_conversions:
+  gentoo: dev-ros/pcl_conversions
+pcl_msgs:
+  gentoo: dev-ros/pcl_msgs
+pcl_ros:
+  gentoo: dev-ros/pcl_ros
+pluginlib:
+  gentoo: dev-ros/pluginlib
+pluginlib_tutorials:
+  gentoo: dev-ros/pluginlib_tutorials
+pointcloud_to_laserscan:
+  gentoo: dev-ros/pointcloud_to_laserscan
+polled_camera:
+  gentoo: dev-ros/polled_camera
+pr2_dashboard_aggregator:
+  gentoo: dev-ros/pr2_dashboard_aggregator
+pr2_description:
+  gentoo: dev-ros/pr2_description
+pr2_machine:
+  gentoo: dev-ros/pr2_machine
+pr2_msgs:
+  gentoo: dev-ros/pr2_msgs
+python_qt_binding:
+  gentoo: dev-ros/python_qt_binding
+qt_dotgraph:
+  gentoo: dev-ros/qt_dotgraph
+qt_gui:
+  gentoo: dev-ros/qt_gui
+qt_gui_app:
+  gentoo: dev-ros/qt_gui_app
+qt_gui_cpp:
+  gentoo: dev-ros/qt_gui_cpp
+qt_gui_py_common:
+  gentoo: dev-ros/qt_gui_py_common
+random_numbers:
+  gentoo: dev-ros/random_numbers
+realtime_tools:
+  gentoo: dev-ros/realtime_tools
+resource_retriever:
+  gentoo: dev-ros/resource_retriever
+robot_pose_ekf:
+  gentoo: dev-ros/robot_pose_ekf
+robot_state_publisher:
+  gentoo: dev-ros/robot_state_publisher
+rosbag:
+  gentoo: dev-ros/rosbag
+rosbag_storage:
+  gentoo: dev-ros/rosbag_storage
+rosbash:
+  gentoo: dev-ros/rosbash
+rosboost_cfg:
+  gentoo: dev-ros/rosboost_cfg
+rosbuild:
+  gentoo: dev-ros/rosbuild
+rosclean:
+  gentoo: dev-ros/rosclean
+rosconsole:
+  gentoo: dev-ros/rosconsole
+rosconsole_bridge:
+  gentoo: dev-ros/rosconsole_bridge
+roscpp:
+  gentoo: dev-ros/roscpp
+roscpp_serialization:
+  gentoo: dev-ros/roscpp_serialization
+roscpp_traits:
+  gentoo: dev-ros/roscpp_traits
+roscpp_tutorials:
+  gentoo: dev-ros/roscpp_tutorials
+roscreate:
+  gentoo: dev-ros/roscreate
+rosgraph:
+  gentoo: dev-ros/rosgraph
+rosgraph_msgs:
+  gentoo: dev-ros/rosgraph_msgs
+roslang:
+  gentoo: dev-ros/roslang
+roslaunch:
+  gentoo: dev-ros/roslaunch
+roslib:
+  gentoo: dev-ros/roslib
+roslint:
+  gentoo: dev-ros/roslint
+roslisp:
+  gentoo: dev-ros/roslisp
+roslz4:
+  gentoo: dev-ros/roslz4
+rosmake:
+  gentoo: dev-ros/rosmake
+rosmaster:
+  gentoo: dev-ros/rosmaster
+rosmsg:
+  gentoo: dev-ros/rosmsg
+rosnode:
+  gentoo: dev-ros/rosnode
+rosout:
+  gentoo: dev-ros/rosout
+rospack:
+  gentoo: dev-ros/rospack
+rosparam:
+  gentoo: dev-ros/rosparam
+rospy:
+  gentoo: dev-ros/rospy
+rospy_tutorials:
+  gentoo: dev-ros/rospy_tutorials
+rosservice:
+  gentoo: dev-ros/rosservice
+rostest:
+  gentoo: dev-ros/rostest
 rostime:
   gentoo: dev-ros/rostime
+rostopic:
+  gentoo: dev-ros/rostopic
+rosunit:
+  gentoo: dev-ros/rosunit
+roswtf:
+  gentoo: dev-ros/roswtf
+rotate_recovery:
+  gentoo: dev-ros/rotate_recovery
+rqt_action:
+  gentoo: dev-ros/rqt_action
+rqt_bag:
+  gentoo: dev-ros/rqt_bag
+rqt_bag_plugins:
+  gentoo: dev-ros/rqt_bag_plugins
+rqt_console:
+  gentoo: dev-ros/rqt_console
+rqt_controller_manager:
+  gentoo: dev-ros/rqt_controller_manager
+rqt_dep:
+  gentoo: dev-ros/rqt_dep
+rqt_graph:
+  gentoo: dev-ros/rqt_graph
+rqt_gui:
+  gentoo: dev-ros/rqt_gui
+rqt_gui_cpp:
+  gentoo: dev-ros/rqt_gui_cpp
+rqt_gui_py:
+  gentoo: dev-ros/rqt_gui_py
+rqt_image_view:
+  gentoo: dev-ros/rqt_image_view
+rqt_launch:
+  gentoo: dev-ros/rqt_launch
+rqt_logger_level:
+  gentoo: dev-ros/rqt_logger_level
+rqt_moveit:
+  gentoo: dev-ros/rqt_moveit
+rqt_msg:
+  gentoo: dev-ros/rqt_msg
+rqt_nav_view:
+  gentoo: dev-ros/rqt_nav_view
+rqt_plot:
+  gentoo: dev-ros/rqt_plot
+rqt_pose_view:
+  gentoo: dev-ros/rqt_pose_view
+rqt_publisher:
+  gentoo: dev-ros/rqt_publisher
+rqt_py_common:
+  gentoo: dev-ros/rqt_py_common
+rqt_py_console:
+  gentoo: dev-ros/rqt_py_console
+rqt_reconfigure:
+  gentoo: dev-ros/rqt_reconfigure
+rqt_robot_dashboard:
+  gentoo: dev-ros/rqt_robot_dashboard
+rqt_robot_monitor:
+  gentoo: dev-ros/rqt_robot_monitor
+rqt_robot_steering:
+  gentoo: dev-ros/rqt_robot_steering
+rqt_runtime_monitor:
+  gentoo: dev-ros/rqt_runtime_monitor
+rqt_rviz:
+  gentoo: dev-ros/rqt_rviz
+rqt_service_caller:
+  gentoo: dev-ros/rqt_service_caller
+rqt_shell:
+  gentoo: dev-ros/rqt_shell
+rqt_srv:
+  gentoo: dev-ros/rqt_srv
+rqt_tf_tree:
+  gentoo: dev-ros/rqt_tf_tree
+rqt_top:
+  gentoo: dev-ros/rqt_top
+rqt_topic:
+  gentoo: dev-ros/rqt_topic
+rqt_web:
+  gentoo: dev-ros/rqt_web
+rviz:
+  gentoo: dev-ros/rviz
+rviz_plugin_tutorials:
+  gentoo: dev-ros/rviz_plugin_tutorials
+rviz_python_tutorial:
+  gentoo: dev-ros/rviz_python_tutorial
+self_test:
+  gentoo: dev-ros/self_test
+sensor_msgs:
+  gentoo: dev-ros/sensor_msgs
+shape_msgs:
+  gentoo: dev-ros/shape_msgs
+smach:
+  gentoo: dev-ros/smach
+smach_msgs:
+  gentoo: dev-ros/smach_msgs
+smach_ros:
+  gentoo: dev-ros/smach_ros
+smclib:
+  gentoo: dev-ros/smclib
+sound_play:
+  gentoo: dev-ros/sound_play
+stage_ros:
+  gentoo: dev-ros/stage_ros
+std_msgs:
+  gentoo: dev-ros/std_msgs
+std_srvs:
+  gentoo: dev-ros/std_srvs
+stereo_image_proc:
+  gentoo: dev-ros/stereo_image_proc
+stereo_msgs:
+  gentoo: dev-ros/stereo_msgs
+test_bond:
+  gentoo: dev-ros/test_bond
+test_diagnostic_aggregator:
+  gentoo: dev-ros/test_diagnostic_aggregator
+test_nodelet:
+  gentoo: dev-ros/test_nodelet
+test_nodelet_topic_tools:
+  gentoo: dev-ros/test_nodelet_topic_tools
+test_rosbag:
+  gentoo: dev-ros/test_rosbag
+test_rosbag_storage:
+  gentoo: dev-ros/test_rosbag_storage
+test_roscpp:
+  gentoo: dev-ros/test_roscpp
+test_rosgraph:
+  gentoo: dev-ros/test_rosgraph
+test_roslaunch:
+  gentoo: dev-ros/test_roslaunch
+test_roslib_comm:
+  gentoo: dev-ros/test_roslib_comm
+test_rosmaster:
+  gentoo: dev-ros/test_rosmaster
+test_rosparam:
+  gentoo: dev-ros/test_rosparam
+test_rospy:
+  gentoo: dev-ros/test_rospy
+test_rosservice:
+  gentoo: dev-ros/test_rosservice
+test_tf2:
+  gentoo: dev-ros/test_tf2
+tf:
+  gentoo: dev-ros/tf
+tf2:
+  gentoo: dev-ros/tf2
+tf2_bullet:
+  gentoo: dev-ros/tf2_bullet
+tf2_geometry_msgs:
+  gentoo: dev-ros/tf2_geometry_msgs
+tf2_kdl:
+  gentoo: dev-ros/tf2_kdl
+tf2_msgs:
+  gentoo: dev-ros/tf2_msgs
+tf2_py:
+  gentoo: dev-ros/tf2_py
+tf2_ros:
+  gentoo: dev-ros/tf2_ros
+tf2_sensor_msgs:
+  gentoo: dev-ros/tf2_sensor_msgs
+tf2_tools:
+  gentoo: dev-ros/tf2_tools
+tf_conversions:
+  gentoo: dev-ros/tf_conversions
+theora_image_transport:
+  gentoo: dev-ros/theora_image_transport
+timestamp_tools:
+  gentoo: dev-ros/timestamp_tools
+topic_tools:
+  gentoo: dev-ros/topic_tools
+trajectory_msgs:
+  gentoo: dev-ros/trajectory_msgs
+transmission_interface:
+  gentoo: dev-ros/transmission_interface
+turtle_actionlib:
+  gentoo: dev-ros/turtle_actionlib
+turtlesim:
+  gentoo: dev-ros/turtlesim
+unique_id:
+  gentoo: dev-ros/unique_id
+urdf:
+  gentoo: dev-ros/urdf
+urdf_parser_plugin:
+  gentoo: dev-ros/urdf_parser_plugin
+urdf_tutorial:
+  gentoo: dev-ros/urdf_tutorial
+uuid_msgs:
+  gentoo: dev-ros/uuid_msgs
+visp_auto_tracker:
+  gentoo: dev-ros/visp_auto_tracker
+visp_bridge:
+  gentoo: dev-ros/visp_bridge
+visp_camera_calibration:
+  gentoo: dev-ros/visp_camera_calibration
+visp_hand2eye_calibration:
+  gentoo: dev-ros/visp_hand2eye_calibration
+visp_tracker:
+  gentoo: dev-ros/visp_tracker
+visualization_marker_tutorials:
+  gentoo: dev-ros/visualization_marker_tutorials
+visualization_msgs:
+  gentoo: dev-ros/visualization_msgs
+voxel_grid:
+  gentoo: dev-ros/voxel_grid
+xacro:
+  gentoo: dev-ros/xacro
+xmlrpcpp:
+  gentoo: dev-ros/xmlrpcpp
+
+
