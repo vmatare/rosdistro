@@ -42,6 +42,10 @@ libconsole-bridge-dev:
   gentoo: dev-libs/console_bridge
 python-catkin-pkg:
   gentoo: dev-python/catkin_pkg
+catkin:
+  gentoo: dev-util/catkin
+
+
 actionlib:
   gentoo: dev-ros/actionlib
 actionlib_msgs:
